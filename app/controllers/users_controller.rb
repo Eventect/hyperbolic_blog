@@ -11,8 +11,4 @@ class UsersController < Clearance::UsersController
     end
   end
 
-  def show
-    
-  end
-
 end

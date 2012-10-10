@@ -1,0 +1,2 @@
+class AdminToolbarsController < ApplicationController
+end
