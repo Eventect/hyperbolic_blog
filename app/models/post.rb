@@ -8,7 +8,7 @@ class Post < ActiveRecord::Base
   scope :published, where(:published => true).order("published_at DESC")
   
   def generate_permalink
-    permalink = self.title.parameterize unless permalink
+    self.permalink = self.title.parameterize unless self.permalink.present?
   end
 
   def permalink_uniqueness
