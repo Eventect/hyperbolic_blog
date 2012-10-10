@@ -1,4 +1,5 @@
-== Hyperbolic Blog
+Hyperbolic Blog
+===============
 
 A very simple blog built in 20 minutes using Ruby on Rails and a modified version of the awesome [Dorty](https://github.com/cloudhead/dorothy) template.
 
