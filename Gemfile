@@ -48,4 +48,5 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'shoulda-context', require: false
+  gem 'quiet_assets'
 end
