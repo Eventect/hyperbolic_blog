@@ -4,5 +4,5 @@ A very simple blog built in 20 minutes using Ruby on Rails and a modified versio
 
 * Autentication based on Clearance
 * Page caching
-* Admin toolbar loaded by javascript as exlained [here](http://railscasts.com/episodes/169-dynamic-page-caching-revised?autoplay=true)
+* Admin toolbar loaded by javascript as exlained [here](http://railscasts.com/episodes/169-dynamic-page-caching-revised)
 * Markdown support based on rdiscount
