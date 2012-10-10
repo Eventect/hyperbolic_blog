@@ -7,7 +7,7 @@ class PostsController < ApplicationController
 
   def index
     if current_user
-      @posts = Post.order("published_at ASC")
+      @posts = Post.order("published_at DESC")
     else 
       @posts = Post.published
     end

@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
 
   before_create :generate_permalink
 
-  scope :published, where(:published => true)
+  scope :published, where(:published => true).order("published_at DESC")
   
   def generate_permalink
     permalink = self.title.parameterize unless permalink
