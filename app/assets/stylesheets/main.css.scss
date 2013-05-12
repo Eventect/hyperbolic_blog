@@ -92,13 +92,30 @@ ul, li {
   list-style-type: none;
 }
 code {
-  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+  display: block;
+  padding: 10px;
+  background-color: #f8f8ff;
+  font-family: Consolas,"Liberation Mono",Courier,monospace;
+  font-size: 13px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  // font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
 }
 pre {
+  font-family: Consolas,"Liberation Mono",Courier,monospace;
+  background: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
   padding: 20px;
 }
 blockquote {
   font-style: italic;
+}
+
+p > code {
+  display: inline !important;
+  padding: 3px;
 }
 
 body > footer {
